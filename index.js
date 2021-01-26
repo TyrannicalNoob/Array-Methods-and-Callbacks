@@ -6,6 +6,10 @@ import { fifaData } from './fifa.js';
 Practice accessing data by console.log-ing the following pieces of data note, you may want to filter the data first 😉*/
 
 //(a) Home Team name for 2014 world cup final
+const homeName = fifaData.filter(word = 'Home Team Name');
+return homeName;
+
+console.log(homeName);
 
 //(b) Away Team name for 2014 world cup final
 
@@ -26,6 +30,7 @@ hint - you should be looking at the stage key inside of the objects
 
 function getFinals(/* code here */) {
    /* code here */
+   
 }
 
 
